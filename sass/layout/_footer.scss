@@ -1,0 +1,36 @@
+.footer__container {
+align-items: baseline;
+display: flex;  
+}
+
+.footer__box {
+margin-right: 70px; 
+flex-grow: 1;
+}
+
+.footer__logo {
+margin-bottom: 20px;
+}
+ 
+
+.footer__box--margin-right {
+margin-right: 93px;      
+}
+
+
+.footer__title {
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-bg-cl);
+margin-bottom: 20px;
+}
+
+
+    
+
+
+
+       

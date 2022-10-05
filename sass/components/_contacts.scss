@@ -1,0 +1,32 @@
+.contacts {
+display: flex;
+gap: 50px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+    
+.contacts__icon {
+fill: var(--secondary-txt-cl);
+stroke: none;
+transition: fill var(--animation);
+}
+
+
+.contacts__link {
+display: flex;
+align-items: center;
+gap: 10px;
+color: var(--secondary-txt-cl);
+transition: fill var(--animation);
+    
+&:hover,
+&:focus {
+color: var(--accent-txt-cl);
+}
+    
+&:hover .contacts__icon,
+&:focus .contacts__icon {
+fill: var(--accent-txt-cl);
+}
+}
