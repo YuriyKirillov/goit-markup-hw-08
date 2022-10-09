@@ -1,10 +1,18 @@
 .customer {
 list-style: none;
 margin: 0;
-padding: 0;
+//padding: 0;
+
+justify-content: center;
 display: flex;
 gap: 30px;
 flex-wrap: wrap;
+
+//desktop styles
+@media screen and (min-width: 480px) {
+padding: 0;
+    
+}   
 
 }
 
