@@ -1,22 +1,47 @@
 .filters__buttom {
 list-style: none;
 margin: 0;
-padding: 0;
+
 flex-wrap: wrap;
 display: flex;
-gap: 8px;
-margin-bottom: 50px;
+gap: 15px 8px;
+margin-bottom: 40px;
+
+//justify-content: center;
+
+//tablet styles
+//desktop styles
+@media screen and (min-width: 768px){
 justify-content: center;
+width: 100%;
+margin-bottom: 50px;
+}    
+
 }
     
 .filters__list {
 list-style: none;
 margin: 0;
-padding: 0;
+flex-grow: 1;
 flex-wrap: wrap;
 display: flex;
 gap: 30px;
+
+
+//tablet styles
+//desktop styles
+@media screen and (min-width: 768px){
+padding: 0;
+
+}    
+
 }
+
+.filters__item {
+display: flex;
+
+}
+
 
 .filters__link {
 text-decoration: none;
@@ -29,7 +54,8 @@ line-height: calc(16 / 14);
 letter-spacing: 0.02em;
 color: var(--main-txt-cl);
 transition: color var(--animation), box-shadow var(--animation);  
-    
+display: flex;  
+flex-direction: column;  
         
 &:hover,
 &:focus
@@ -53,26 +79,26 @@ transform: translateY(0);
 .filters__image {
 position: relative;   
 overflow: hidden;
- }
+}
     
 .filters__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(100%);
-    transition: var(--animation);
-    width: 100%;
-    height: 100%;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 63px;
-    padding-bottom: 63px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(33, 150, 243, 0.9);
-    transition: translate(--animation);
-    }
+position: absolute;
+top: 0;
+left: 0;
+transform: translateY(100%);
+transition: var(--animation);
+width: 100%;
+height: 100%;
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 63px;
+padding-bottom: 63px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(33, 150, 243, 0.9);
+transition: translate(--animation);
+}
     
 
 .filters__box {
@@ -83,6 +109,19 @@ padding-bottom: 20px;
 border-left: 1px solid #EEEEEE;
 border-right: 1px solid #EEEEEE;
 border-bottom: 1px solid #EEEEEE;
+flex-grow: 1;
+
+//tablet styles
+@media screen and (min-width: 768px) {
+width: 354px;  
+//height: 146px;
+}    
+
+//desktop styles
+@media screen and (min-width: 1200px) {
+width: 100%;  
+}
+
 }
 
 .filters__btn {

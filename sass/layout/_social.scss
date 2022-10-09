@@ -5,6 +5,12 @@ padding: 0;
 display: flex;
 gap: 10px;
 justify-content: center; 
+
+//desktop styles
+@media screen and (min-width: 1200px) {
+justify-content: left; 
+
+}
 }
 
 .social__link {

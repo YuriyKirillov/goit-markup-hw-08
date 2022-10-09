@@ -4,18 +4,31 @@ margin: 0;
 padding: 0;
 display: flex;
 gap: 30px;
+flex-wrap: wrap;
+
 }
 
 .customer__link {
 display: flex;
 align-items: center; 
 justify-content: center;
-width: 170px;   
+width: 210px;   
 height: 92px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 background: var(--main-bg-cl);
 transition: fill var(--animation), border var(--animation); 
+
+//tablet styles
+@media screen and (min-width: 768px) {
+width: 226px;  
+}    
+           
+//desktop styles
+@media screen and (min-width: 1200px) {
+width: 170px;  
+}
+
         
 &:hover , 
 &:focus {

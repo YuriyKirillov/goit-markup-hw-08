@@ -1,10 +1,17 @@
 
 .opportunity {
+display: none;
+
+
+
+//desktop styles
+@media screen and (min-width: 1200px) {
 list-style: none;
 margin: 0;
 padding: 0;
 display: flex;
 gap: 30px;
+}    
 }
     
 .opportunity__item {
