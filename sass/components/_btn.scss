@@ -1,8 +1,8 @@
 
 .btn {
-width: 216px;
+width: 200px;
 min-height: 50px;
-padding: 10px 28px;
+padding: 10px 23px;
 margin-right: auto;
 margin-left: auto;
 font-family: var(--main-font);
@@ -26,6 +26,12 @@ transition: color var(--animation);
 &:focus {
 color: var(--main-bg-cl);
 }
+
+@media screen and (min-width: 1200px) {
+width: 216px;
+padding: 10px 31px;
+}
+
 }
 
 

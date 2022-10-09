@@ -1,8 +1,29 @@
 .contacts {
+display: none;
+
+
+
+//tablet styles
+@media screen and (min-width: 768px){
 display: flex;
+flex-direction: column;
+gap: 10px;
+padding-top: 21px;
+padding-bottom: 21px;
+}    
+
+//desktop styles
+@media screen and (min-width: 1200px) {
+display: flex;
+flex-direction: row;
 gap: 50px;
-padding-top: 25px;
-padding-bottom: 25px;
+padding-top: 32px;
+padding-bottom: 32px;
+
+}    
+
+
+
 }
 
     
@@ -19,6 +40,19 @@ align-items: center;
 gap: 10px;
 color: var(--secondary-txt-cl);
 transition: fill var(--animation);
+font-weight: 500;
+font-size: 12px;
+line-height: calc(14 / 12);
+letter-spacing: 0.02em;
+
+//desktop styles
+@media screen and (min-width: 1200px) {
+font-size: 14px;
+line-height: calc(16 / 14);
+    
+}
+
+
     
 &:hover,
 &:focus {
