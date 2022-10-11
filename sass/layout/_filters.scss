@@ -1,19 +1,24 @@
 .filters__buttom {
 list-style: none;
 margin: 0;
-
+padding: 0;
 flex-wrap: wrap;
 display: flex;
 gap: 15px 8px;
 margin-bottom: 40px;
 
-//justify-content: center;
 
 //tablet styles
-//desktop styles
 @media screen and (min-width: 768px){
+gap: 8px;
 justify-content: center;
 width: 100%;
+margin-bottom: 30px;
+}  
+
+//desktop styles
+@media screen and (min-width: 1200px){
+
 margin-bottom: 50px;
 }    
 
@@ -22,23 +27,29 @@ margin-bottom: 50px;
 .filters__list {
 list-style: none;
 margin: 0;
+padding: 0;
 flex-grow: 1;
 flex-wrap: wrap;
 display: flex;
 gap: 30px;
 
 
-//tablet styles
-//desktop styles
-@media screen and (min-width: 768px){
-padding: 0;
-
-}    
-
 }
 
 .filters__item {
 display: flex;
+//flex-basis: calc((100% - 30px * 2) / 3);
+
+
+//tablet styles
+@media screen and (min-width: 768px){
+flex-basis: calc((100% - 30px * 1) / 2);
+}  
+
+//desktop styles
+@media screen and (min-width: 1200px){
+flex-basis: calc((100% - 30px * 2) / 3);
+}    
 
 }
 
@@ -112,10 +123,10 @@ border-bottom: 1px solid #EEEEEE;
 flex-grow: 1;
 
 //tablet styles
-@media screen and (min-width: 768px) {
-width: 354px;  
-//height: 146px;
-}    
+//@media screen and (min-width: 768px) {
+//width: 354px;  
+
+//}    
 
 //desktop styles
 @media screen and (min-width: 1200px) {
