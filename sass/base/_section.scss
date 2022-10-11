@@ -22,7 +22,7 @@ padding-top: 0;
 padding-bottom: 0;
 }
 
-@media screen and (max-width: 1200px) {  
+@media screen and (min-width: 1200px) {  
 padding-top: 0;
 
 }
@@ -73,9 +73,6 @@ overflow: hidden;
 background-color:#F5F4FA;
 }
 
-.section--other-background-padding {
-background-color: var(--secondary-bg-cl);
 
-}
 
     
