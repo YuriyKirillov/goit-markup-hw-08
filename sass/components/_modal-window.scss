@@ -38,19 +38,22 @@ transition: transform var(--animation);
 transition-duration: 1s;
 overflow: scroll;
 
-width: 450px;
+width: 100%;
 position: absolute;    
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) rotate(360deg);
 margin: 0;
 
+@media screen and (min-width: 768px) {
+
+width: 450px;
+}
 
 @media screen and (min-width: 1200px) {
 
 width: 528px;
 }
-
 
 }
 
