@@ -72,7 +72,7 @@ img {
     padding-bottom: 0;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .section--no-padding-top {
     padding-top: 0;
   }
@@ -113,10 +113,6 @@ img {
 
 .section--other-background {
   background-color: #F5F4FA;
-}
-
-.section--other-background-padding {
-  background-color: var(--secondary-bg-cl);
 }
 
 .container {
@@ -437,37 +433,37 @@ img {
   background-size: cover;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_sm-@1x.png), url(../images/Title/Main.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_sm-@1x.png), url(../images/Title/Main.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_sm-@1x.png), url(../images/Title/Main.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_sm-@1x.png), url(../images/Title/Main.jpg);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_sm-@2x.png), url(../images/Title/Main.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_sm-@2x.png), url(../images/Title/Main.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_sm-@2x.png), url(../images/Title/Main.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_sm-@2x.png), url(../images/Title/Main.jpg);
   }
 }
 @media screen and (min-width: 481px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_md-@1x.png), url(../images/Title/Main.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_md-@1x.png), url(../images/Title/Main.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_md-@1x.png), url(../images/Title/Main.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_md-@1x.png), url(../images/Title/Main.jpg);
   }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_md-@2x.png), url(../images/Title/Main.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_md-@2x.png), url(../images/Title/Main.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_md-@2x.png), url(../images/Title/Main.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_md-@2x.png), url(../images/Title/Main.jpg);
   }
 }
 @media screen and (min-width: 769px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_lg-@1x.png), url(../images/Title/Main.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_lg-@1x.png), url(../images/Title/Main.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_lg-@1x.png), url(../images/Title/Main.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_lg-@1x.png), url(../images/Title/Main.jpg);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_lg-@2x.png), url(../images/Title/Main.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_lg-@2x.png), url(../images/Title/Main.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url(../images/Title/Overlay_lg-@2x.png), url(../images/Title/Main.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/Title/Overlay_lg-@2x.png), url(../images/Title/Main.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -480,7 +476,6 @@ img {
 
 .hero__title {
   width: 100%;
-  min-height: 84px;
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -491,6 +486,11 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-bg-cl);
+}
+@media screen and (min-width: 768px) {
+  .hero__title {
+    width: 360px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
@@ -858,6 +858,12 @@ img {
   transition: fill var(--animation);
 }
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--secondary-bg-cl);
+}
+
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -900,9 +906,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     gap: 0;
@@ -915,11 +918,6 @@ img {
 
 .footer__box {
   margin-right: 0;
-}
-@media screen and (min-width: 768px) {
-  .footer__box {
-    margin-right: 105px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .footer__box {
@@ -1211,6 +1209,7 @@ img {
 .filters__buttom {
   list-style: none;
   margin: 0;
+  padding: 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: -webkit-box;
@@ -1221,10 +1220,16 @@ img {
 }
 @media screen and (min-width: 768px) {
   .filters__buttom {
+    gap: 8px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filters__buttom {
     margin-bottom: 50px;
   }
 }
@@ -1232,6 +1237,7 @@ img {
 .filters__list {
   list-style: none;
   margin: 0;
+  padding: 0;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -1242,16 +1248,23 @@ img {
   display: flex;
   gap: 30px;
 }
-@media screen and (min-width: 768px) {
-  .filters__list {
-    padding: 0;
-  }
-}
 
 .filters__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (min-width: 768px) {
+  .filters__item {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filters__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
+  }
 }
 
 .filters__link {
@@ -1333,11 +1346,6 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-}
-@media screen and (min-width: 768px) {
-  .filters__box {
-    width: 354px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .filters__box {
@@ -1440,13 +1448,18 @@ img {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   overflow: scroll;
-  width: 450px;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotate(360deg);
           transform: translate(-50%, -50%) rotate(360deg);
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .modal__box {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal__box {
